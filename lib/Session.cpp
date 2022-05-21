@@ -30,7 +30,7 @@
 
 // Qt
 #include <QApplication>
-#include <QByteRef>
+#include <QByteArray>
 #include <QDir>
 #include <QFile>
 #include <QRegExp>

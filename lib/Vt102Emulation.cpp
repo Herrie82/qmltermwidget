@@ -47,7 +47,7 @@
 // Qt
 #include <QEvent>
 #include <QKeyEvent>
-#include <QByteRef>
+#include <QByteArray>
 #include <QDebug>
 
 // KDE
