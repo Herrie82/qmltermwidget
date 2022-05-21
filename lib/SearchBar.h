@@ -19,7 +19,11 @@
 #ifndef _SEARCHBAR_H
 #define	_SEARCHBAR_H
 
-#include <QRegExp>
+#if (QT_VERSION >= QT_VERSION_CHECK(6,0,0))
+    #include <QRegularExpression>
+#else
+    #include <QRegExp>
+#endif
 
 #include "ui_SearchBar.h"
 #include "HistorySearch.h"
